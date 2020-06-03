@@ -32,6 +32,7 @@ SELECT name, max(price) FROM product GROUP BY name LIMIT 1;
 
 3. Найти продукт, который еще не куплен клиентами. Вывести его название.
 ```sql
-SELECT name FROM product LEFT JOIN client_and_product ON client_and_product.product_id = product.id WHERE client_id IS NULL;```
+SELECT name FROM product LEFT JOIN client_and_product ON client_and_product.product_id = product.id WHERE client_id IS NULL;
+```
 
 
