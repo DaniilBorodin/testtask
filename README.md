@@ -9,7 +9,7 @@
 появляются два файла:
 
 sortedByName.json - отсортированные по Name.
-sortedByDane.json - отсортированные по Date.
+sortedByDate.json - отсортированные по Date.
 
 * Второе задание
 
